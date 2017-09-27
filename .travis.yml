@@ -4,6 +4,7 @@ jdk:
 sudo: required
 
 before_install:
+ - chmod a+x /usr/local/apache-maven/apache-maven-3.5.0/bin/mvn
   - pip install --user codecov
   
 after_success:
